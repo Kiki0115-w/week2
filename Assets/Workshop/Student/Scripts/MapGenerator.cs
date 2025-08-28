@@ -23,6 +23,8 @@ namespace Workshop.Student
 
 
         // 7. declare Exit variable 
+        public GameObject exitPrefab;
+
 
 
         public void Start()
@@ -103,7 +105,8 @@ namespace Workshop.Student
             }
 
             // 7. place exit
-
+            Vector2 exitPosition = new Vector2(columns - 2, rows - 2);
+            Instantiate(exitPrefab, exitPosition, Quaternion.identity);
 
         }
     }

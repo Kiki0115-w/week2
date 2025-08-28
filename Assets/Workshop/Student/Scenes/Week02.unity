@@ -357,6 +357,7 @@ MonoBehaviour:
   playerPrefabs:
   - {fileID: 7365724651264261338, guid: 40fd79106f0cd4d4aa499f41401cb239, type: 3}
   - {fileID: 7365724651264261338, guid: d2eb63f9d25c4604991ad4465a88ba27, type: 3}
+  exitPrefab: {fileID: 7025940495585331075, guid: 66e92acc836da4f41bdc3eb615f7c97b, type: 3}
 --- !u!1 &401495253
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,7 +712,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 75.637054
+  field of view: 61.028378
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
